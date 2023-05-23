@@ -1,0 +1,22 @@
+.button {
+    background: #26abfc;
+    display: inline-block;
+    font-size: 2em;
+    padding: .5em 2em;
+    text-decoration: none;
+}
+
+.button:hover {
+
+    box-shadow: 0 0 0;
+}
+
+.parallelogram {
+    transform: skew(20deg);
+}
+
+.skew-fix {
+    display: inline-block;
+    transform: skew(-20deg);
+    color: #fff;
+}
