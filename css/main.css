@@ -185,3 +185,8 @@
         right: 0;
     }
 }
+
+#form-step-two {
+    display: none;
+    height: 400px;
+}

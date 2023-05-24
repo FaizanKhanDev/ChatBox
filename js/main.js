@@ -5,4 +5,11 @@ function chatboxToogleHandler() {
     formWrapper.classList.toggle("active");
     formActionButton.classList.toggle("active");
 }
+function toggleElement() {
+
+    document.getElementById("form-step-two").style.display = "block";
+    document.getElementById("form-step-one").style.display = "none";
+
+}
+
 // === Chat Box === //

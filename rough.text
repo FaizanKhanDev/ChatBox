@@ -1,0 +1,10 @@
+<button onclick="toggleElement()">Toggle Element</button>
+<div id="myElement" style="display: none;">This is the element to be toggled</div>
+function toggleElement() {
+  var element = document.getElementById("myElement");
+  if (element.style.display === "none") {
+    element.style.display = "block";
+  } else {
+    element.style.display = "none";
+  }
+}

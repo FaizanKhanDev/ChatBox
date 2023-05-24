@@ -26,31 +26,36 @@
                             </svg>
                         </button>
                     </div>
-                    <form action="" method="POST" class="formbold-chatbox-form">
-                        <div class="formbold-mb-5">
-                            <label for="name" class="formbold-form-label"> Your Name </label>
-                            <input type="text" name="name" id="name" placeholder="Your Name"
-                                class="formbold-form-input">
-                        </div>
-                        <div class="formbold-mb-5">
-                            <label for="name" class="formbold-form-label"> Phone Number </label>
-                            <input type="text" name="name" id="name" placeholder="Your Phone Number"
-                                class="formbold-form-input">
-                        </div>
-                        <div class="formbold-mb-5">
-                            <label for="email" class="formbold-form-label"> Email Address </label>
-                            <input type="email" name="email" id="email" placeholder="example@domain.com"
-                                class="formbold-form-input">
-                        </div>
+                    <form class="formbold-chatbox-form">
+                        <div id="form-step-one">
+                            <div class="formbold-mb-5">
+                                <label for="name" class="formbold-form-label"> Your Name </label>
+                                <input type="text" name="name" id="name" placeholder="Your Name"
+                                    class="formbold-form-input">
+                            </div>
+                            <div class="formbold-mb-5">
+                                <label for="name" class="formbold-form-label"> Phone Number </label>
+                                <input type="text" name="name" id="name" placeholder="Your Phone Number"
+                                    class="formbold-form-input">
+                            </div>
+                            <div class="formbold-mb-5">
+                                <label for="email" class="formbold-form-label"> Email Address </label>
+                                <input type="email" name="email" id="email" placeholder="example@domain.com"
+                                    class="formbold-form-input">
+                            </div>
 
-                        <div class="formbold-mb-5">
-                            <label for="message" class="formbold-form-label"> Message </label>
-                            <textarea rows="6" name="message" id="message" placeholder="Explain you queries"
-                                class="formbold-form-input"></textarea>
+                            <div class="formbold-mb-5">
+                                <label for="message" class="formbold-form-label"> Message </label>
+                                <textarea rows="6" name="message" id="message" placeholder="Explain you queries"
+                                    class="formbold-form-input"></textarea>
+                            </div>
+                        </div>
+                        <div id="form-step-two">
+                            <p>this is message</p>
                         </div>
 
                         <div>
-                            <button class="formbold-btn w-full">Submit</button>
+                            <button type="button" onclick="toggleElement()" class="formbold-btn w-full">Submits</button>
                         </div>
                     </form>
                 </div>
@@ -82,7 +87,15 @@
     </div>
     <!-- ==== Chat Section === -->
 
+
     <script src="js/main.js"></script>
+
+
+
+
+
+
+
 </body>
 
 </html>
